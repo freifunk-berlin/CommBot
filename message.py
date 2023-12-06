@@ -11,12 +11,9 @@ def render_message(date: str) -> (str, str):
     am kommenden Mittwoch ist wieder der erste Mittwoch im Monat. Das heißt:
     *Freifunktreffen auf der c-base*.
 
-    Hier kannst du viele andere Freifunkende Treffen und Kontakte schließen.
-    Meistens nutzen wir dieses Treffen, um Community-Themen zu besprechen
-    und bei einem leckeren Getränk eine schöne Zeit zu haben. Falls Du Lust
-    auf Hardware-Hackereien (z.B. Router-flashen) hast, antworte am besten kurz
-    auf diese Mail und schaue, ob auch jemand kommt, der sich mit Dir darum
-    kümmern kann.
+    Hier kannst du viele andere Freifunkende treffen und Kontakte schließen.
+    Wir nutzen dieses Treffen, um Community-Themen zu besprechen und bei einem
+    leckeren Getränk eine schöne Zeit zu haben.
 
     *Freifunk-Treffen auf der c-base*
     *Mittwoch, {date}, ab ca. 20 Uhr*
@@ -28,6 +25,8 @@ def render_message(date: str) -> (str, str):
 
     Du möchtest ein Thema vorschlagen, dass wir als Community besprechen
     sollten? Schicke deinen Themenvorschlag gerne als Antwort auf diese E-Mail.
+
+    Komm gerne einfach vorbei, wir freuen uns immer über neue Menschen.
 
     Dies ist eine automatische Erinnerung von _CommBot_, deinem freundlichen
     Community-Bot.
@@ -47,12 +46,10 @@ def render_message(date: str) -> (str, str):
         <p>Liebe Community,</p>
         <p>am kommenden Mittwoch ist wieder der erste Mittwoch im Monat. Das
           heißt: <b>Freifunktreffen auf der c-base</b>.</p>
-        <p>Hier kannst du viele andere Freifunkende Treffen und Kontakte
+        <p>Hier kannst du viele andere Freifunkende treffen und Kontakte
           schließen. Meistens nutzen wir dieses Treffen, um Community-Themen
           zu besprechen und bei einem leckeren Getränk eine schöne Zeit zu
-          haben. Falls Du Lust auf Hardware-Hackereien (z.B. Router-flashen)
-          hast, antworte am besten kurz auf diese Mail und schaue, ob auch
-          jemand kommt, der sich mit Dir darum kümmern kann.</p>
+          haben.</p>
         <p><b>Freifunk-Treffen auf der c-base<br>
             Mittwoch, {date}, ab ca. 20 Uhr<br>
           </b><b>Rungestraße 20, 10179 Berlin</b></p>
@@ -62,6 +59,9 @@ def render_message(date: str) -> (str, str):
         <p>Du möchtest ein Thema vorschlagen, dass wir als Community
           besprechen sollten? Schicke deinen Themenvorschlag gerne als
           Antwort auf diese E-Mail.<br>
+        </p>
+        <p>
+        Komm gerne einfach vorbei, wir freuen uns immer über neue Menschen.
         </p>
         <p>Dies ist eine automatische Erinnerung von <i>CommBot</i>, deinem
           freundlichen Community-Bot.</p>
